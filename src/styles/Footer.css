@@ -8,8 +8,12 @@
 }
 
 .footer-contact {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 40px;
 }
+
+
 
 .contact-title {
 color: #D3874A;

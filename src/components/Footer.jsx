@@ -3,12 +3,11 @@ import '../styles/Footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-        <div className="footer-content">
-            <div className="footer-left">
+            <div className="footer-contact">
                 <span className="contact-title">CONTACT US</span>
                 <h2>Ready to book a consultation or have a question for us?</h2>
             </div>
-            <div className="footer-right">
+            <div className="footer-sections">
                 <div className="footer-section">
                     <h3>Explore</h3>
                     <ul>
@@ -25,6 +24,8 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Connect</h3>
                     <ul>
+                        
+                
                         <li><a href="#contact">CONTACT US</a></li>
                         <li><a href="#instagram">INSTAGRAM</a></li>
                         <li><a href="#facebook">FACEBOOK</a></li>
@@ -32,12 +33,10 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </div>
-        <div className="footer-note">
-            <span>© 2022 Company Name® Global Inc.</span>
-        </div>
-    </footer>
-
+            <div className="footer-note">
+                <span>© 2022 Company Name® Global Inc.</span>
+            </div>
+        </footer>
     );
 };
 
