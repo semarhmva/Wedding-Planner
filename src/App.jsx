@@ -3,12 +3,14 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+
 function App() {
     return (
         <div className="App">
-           <Header/> 
-           
-           <Footer/>
+          <Navbar/>
+          <Hero/>
         </div>
     );
 }

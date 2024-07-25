@@ -8,23 +8,18 @@
     width: 100%;
     top: 0;
     left: 0;
-    font-family: 'Poppins';
-    
+    font-family: 'Poppins';    
 }
-
 .logo {
     display: flex;
     padding: 20px 120px;
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-links {
     display: flex;
     gap: 18px;
 }
-
-
 
 .nav-links a {
     color: #252A2E;
@@ -35,11 +30,9 @@
     line-height: 140%; 
     letter-spacing: 0.08px;
 }
-
 .nav-links a:hover {
     text-decoration: underline;
 }
-
 .book-btn {
     border-radius: 24px;
     background-color: #757B67;
