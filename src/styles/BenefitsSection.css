@@ -1,0 +1,45 @@
+.benefits-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  max-width: 250px;
+  margin: 20px;
+  text-align: center;
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.benefit-title {
+  color: #2B2D41;
+  text-align: start;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.12px;
+  margin-bottom: 10px;
+}
+
+.benefit-description {
+  color: #8E8E8E;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: 0.09px;
+  text-align: start;
+}

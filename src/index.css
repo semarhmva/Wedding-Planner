@@ -9,10 +9,13 @@
 body{
   background-color: #f7f7f7;
 }
-
-.container{
-  padding-left: 10%;
-  padding-right: 10%;
- 
+.container {
+  
+    max-width: 1300px;
+    margin:  0 auto;
+    width: 90%;
+  
   
 }
+
+

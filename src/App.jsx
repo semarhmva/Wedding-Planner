@@ -1,18 +1,28 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-
+import React from "react";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/home/Navbar";
 function App() {
-    return (
-        <div className="App">
-          <Navbar/>
-          <Hero/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Navbar />
+      {/* // bütün səhifələr */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<div>Products</div>} />
+       
+       
+       
+       
+       
+       
+       
+       
+        <Route path="*" element={<div>404 Not found</div>} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,86 @@
+.venues{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.venues .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+.venues-left , .venues-right{
+    width: 45%;
+    height: 75%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.title{
+    width: 100%;
+    height: 30%;
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.title h2{
+    color: #252A2E;
+font-family: "Playfair Display";
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 64px */
+letter-spacing: 0.2px;
+text-align: start;
+}
+.title span{
+    text-align: start;
+    color: #D3874A;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    height: 48%;
+    text-align: start;
+}
+.content p{
+    color: #252A2E;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.09px;
+}
+.venues .btn{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+.venues .book-btn{
+border-radius: 24px;
+border: 1px solid #757B67;
+color: #757B67;
+font-family: 'Poppins';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.07px;
+}

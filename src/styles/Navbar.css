@@ -1,9 +1,8 @@
-nav{
+.navbar {
     width: 100%;
-    /*background-color: #333;*/
     color: #fff;
-    padding: 4px 0;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     display: flex;
@@ -11,52 +10,85 @@ nav{
     justify-content: space-between;
     z-index: 11;
     font-family: 'Poppins';
-}
-
-.logo {
+    transition: all 0.3s ease;
+  }
+  
+  .container {
     display: flex;
-    padding: 20px 120px;
-    justify-content: space-between;
     align-items: center;
-}
-.nav-links {
+    justify-content:center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    color: white; 
+    transition: color 0.3s;
+  }
+  
+  .logo.black {
+    color: black;
+  }
+  
+  .nav-ul {
     display: flex;
-    gap: 18px;
-}
-
-
-
-nav ul li {
-    display: inline-block;
-    margin: 5px 20px;
-    font-size: 16px;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
     
-}
-.nav-links a {
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-link {
     color: white;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; 
+    line-height: 140%;
     letter-spacing: 0.08px;
-}
-
-.book-btn {
+    transition: color 0.3s;
+  }
+  
+  .nav-link.active-link {
+    color: #D3874A; 
+  }
+  
+  .nav-link.black {
+    color: black;
+  }
+  
+  .book-btn {
     background-color: transparent;
     border-radius: 24px;
     border: 1px solid #FFF;
-    color:white;
+    color: white;
     padding: 12px 32px;
     text-decoration: none;
     font-size: 14px;
-    transition: background 0.3s;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
     cursor: pointer;
     outline: none;
-}
-
-.book-btn:hover {
-    background:#252A2E
-}
-
-
+  }
+  
+  .book-btn.black {
+    color: black;
+    border-color: black;
+  }
+  
+  .book-btn:hover {
+    background: #252A2E;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
