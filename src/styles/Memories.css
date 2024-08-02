@@ -1,0 +1,30 @@
+.memories{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+.memories .container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    flex-direction: column;
+}
+.title{
+    width: 40%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    text-align: center;
+}

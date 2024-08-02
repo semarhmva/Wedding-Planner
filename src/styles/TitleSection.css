@@ -23,7 +23,9 @@ h2 {
     text-align: center;
     gap: 1rem;
   }
-  
+  .main-title{
+    text-align: start;
+  }
   .sub-title span {
     color: #d3874a;
     text-align: center;

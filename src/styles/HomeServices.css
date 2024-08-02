@@ -102,3 +102,45 @@
     opacity: 1; 
   }
   
+  @media screen and (max-width: 960px) {
+    .services-title {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text {
+        font-size: 28px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .services-title {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay, .card-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

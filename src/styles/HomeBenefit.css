@@ -34,3 +34,37 @@ font-weight: 600;
 line-height: 160%; 
 letter-spacing: 0.24px;
 } */
+
+
+@media screen and (max-width: 960px) {
+    .benefits-area {
+        padding: 15px;
+    }
+
+    .benefits-area .container {
+        max-width: 100%; 
+    }
+
+    .benefits-title {
+        width: 80%; 
+        font-size: 22px; 
+    }
+}
+
+/* For screens 560px and below */
+@media screen and (max-width: 560px) {
+    .benefits-area {
+        padding: 10px;
+    }
+
+    .benefits-title {
+        width: 100%; 
+        font-size: 20px; 
+        text-align: center; 
+        align-items: center; 
+    }
+
+    .benefits-area .container {
+        padding: 0 10px; 
+    }
+}

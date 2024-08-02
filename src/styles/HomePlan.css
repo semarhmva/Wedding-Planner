@@ -1,0 +1,61 @@
+.plan{
+    display: flex;
+    height: 130vh;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 48px;
+margin: 0 auto;
+}
+
+.plan .container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.top{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+}
+.bottom{
+    margin: 40px auto;
+    width: 99%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bottom .plan-card{
+    width: 33%;
+}
+.top-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left h2{
+    color: #252A2E;
+font-family: "Playfair Display";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 76.8px */
+letter-spacing: 0.24px;
+text-align: start;
+}

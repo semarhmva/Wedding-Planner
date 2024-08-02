@@ -127,3 +127,82 @@ letter-spacing: 0.09px;
     color: #f7f7f7;
   }
   
+
+  /* Responsive Styles for 960px and below */
+  @media screen and (max-width: 960px) {
+      .home-about {
+          padding: 20px 10px;
+      }
+  
+      .about-company-content {
+          flex-direction: column; 
+          align-items: center; 
+          text-align: center; 
+      }
+  
+      .about-left, .about-right {
+          max-width: 80%;
+          margin-bottom: 20px;
+      }
+  
+      .image1 {
+          max-width: 350px; 
+      }
+  
+      .image2 {
+          width: 100px;
+          height: 100px;
+          transform: translate(20%, 20%);
+      }
+  
+      .about-right h2 {
+          font-size: 24px;
+      }
+  
+      .about-right p {
+          font-size: 14px;
+      }
+  
+      .about-right .book-btn {
+          font-size: 14px;
+      }
+  }
+
+  @media screen and (max-width: 560px) {
+    .about-company-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-left, .about-right {
+        width: 100%;
+        max-width: 350px; /* Adjust for smaller screens */
+        text-align: center;
+    }
+
+    .image1 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .image2 {
+        width: 80px;
+        height: 80px;
+        transform: translate(20%, 20%);
+    }
+
+    .about-right h2 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .about-right p {
+        font-size: 14px;
+    }
+
+    .about-right .book-btn {
+        font-size: 14px;
+    }
+}

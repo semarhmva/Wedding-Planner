@@ -25,7 +25,7 @@ function HomeVenues() {
 
             </div>
             <div className="venues-right">
-
+                <img src="/venues.png" alt="venues" className='venues-img'/>
             </div>
         </div>
     </div>

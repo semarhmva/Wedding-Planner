@@ -3,9 +3,10 @@ import Navbar from "../components/home/Navbar";
 import HomeAbout from "../components/home/HomeAbout";
 import Footer from "../components/Footer";
 import HomeServices from "../components/home/HomeServices";
-
 import HomeBenefit from "../components/home/HomeBenefit";
 import HomeVenues from "../components/home/HomeVenues";
+import HomePlan from "../components/home/HomePlan";
+import Memories from "../components/home/Memories";
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
       <HomeServices/>
       <HomeBenefit/>
       <HomeVenues/>
+      <HomePlan/>
+      <Memories/>
       <Footer/>
     </section>
   );

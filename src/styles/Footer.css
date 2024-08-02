@@ -128,3 +128,77 @@ letter-spacing: 0.08px;
   .links-container a:hover {
     color: #555;
   }
+
+  @media screen and (max-width: 960px) {
+    .footer {
+        padding: 0 3%;
+    }
+
+    .footer-top, .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-top-left, .footer-top-right, .footer-bottom-left, .footer-bottom-right {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-span, .explore-links h2 {
+        font-size: 32px; /* Adjusted for medium screens */
+    }
+
+    .links-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links-container a {
+        font-size: 14px; /* Adjusted font size */
+    }
+}
+
+  @media screen and (max-width: 560px) {
+    .footer {
+        padding: 20px 2%;
+    }
+
+    .footer .contact-us {
+        font-size: 20px;
+    }
+
+    .footer .contact-text {
+        font-size: 16px;
+    }
+
+    .footer .cta-button {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .footer .links-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .links-section div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer .links-section h2 {
+        font-size: 18px;
+    }
+
+    .footer .links-section ul li a {
+        font-size: 14px;
+    }
+
+    .footer .copyright {
+        font-size: 12px;
+    }
+}

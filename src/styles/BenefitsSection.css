@@ -43,3 +43,55 @@
   letter-spacing: 0.09px;
   text-align: start;
 }
+
+
+@media screen and (max-width: 960px) {
+  .benefits-container {
+    justify-content: center;
+  }
+
+  .benefit-item {
+    max-width: 300px;
+    margin: 20px;
+  }
+
+  .benefit-title {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .benefit-description {
+    font-size: 16px; 
+    line-height: 1.6;
+  }
+}
+
+/* For screens 560px and below */
+@media screen and (max-width: 560px) {
+  .benefits-section {
+    padding: 20px 10px; 
+  }
+
+  .benefit-item {
+    max-width: 100%;
+    margin: 10px 0; 
+    text-align: center; 
+  }
+
+  .benefit-icon {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .benefit-title {
+    font-size: 20px; 
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+
+  .benefit-description {
+    font-size: 14px; 
+    line-height: 1.5;
+  }
+}
