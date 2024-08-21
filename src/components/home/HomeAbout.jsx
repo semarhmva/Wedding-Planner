@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../styles/HomeAbout.css"
 import TitleSection from "../TitleSection"
+import Button from '../Button'
 function HomeAbout() {
   return (
     <div className='home-about'>
@@ -29,7 +30,10 @@ function HomeAbout() {
                          <br />
                         Our approach is personal, friendly, and professional, and we strive
                          to make the planning process as stress-free as possible.</p>
-                         <a href="#book" className="book-btn">Book Now</a>
+                         <div className="btn">
+            <Button text="Book Now" href="#book" />
+          </div>
+
                 </div>
                 
             </div>

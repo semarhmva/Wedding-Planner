@@ -118,14 +118,14 @@ line-height: 160%; /* 28.8px */
 letter-spacing: 0.09px;
 }
 
-.about-right .book-btn{
+/* .about-right .book-btn{
     color: black;
     border: 1px solid black;
   }
 
   .about-right .book-btn:hover{
     color: #f7f7f7;
-  }
+  } */
   
 
   /* Responsive Styles for 960px and below */

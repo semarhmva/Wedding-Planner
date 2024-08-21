@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/BenefitsSection.css'; // Ensure the path is correct
+import '../styles/BenefitsSection.css'; 
 
 function BenefitsSection({ benefits }) {
   return (

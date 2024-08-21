@@ -1,44 +1,46 @@
 .image-card {
-    position: relative;
-    overflow: hidden;
-    margin: 0 10px;
-  }
-  
-  .image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-  }
-  
-  .overlay-text {
-    text-align: center;
-  }
-  
-  .date {
-    font-size: 14px;
-  }
-  
-  .title {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .instagram-link img {
-    width: 20px;
-    height: 20px;
-  }
-  
+  position: relative;
+  width: 25%; 
+  height: 80%; 
+  overflow: hidden;
+}
+
+.image-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 10px;
+}
+
+.image-card:hover .image-card-overlay {
+  opacity: 1;
+}
+
+.image-card-date,
+.image-card-names {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+
+.image-card.center {
+  width: 18%; 
+  height: 45vh; 
+}

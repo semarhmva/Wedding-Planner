@@ -1,100 +1,166 @@
-
-
-
 .plan-card {
-    border: 1px solid #C9C9C9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center ;
-    flex-direction: column;
-    max-width: 350px;
-    text-align: left;
-    height: 75vh;
-    width: 384px;
-   padding: 24px;
-   
-  }
-  
-  .plan-card.featured {
-   
-    height: 80vh;
-  }
-  
-  .plan-title {
-    color: #252A2E;
-font-family: "Playfair Display";
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 33.6px */
-letter-spacing: 0.12px;
-  }
-  
-  .plan-price {
-    color: #252A2E;
-font-family: "Playfair Display";
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 140%; /* 44.8px */
-letter-spacing: 0.16px;
-  }
-  
-  .plan-description {
-    color: #252A2E;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 32px */
-    letter-spacing: 0.1px;
-  }
-  
-  .plan-features {
-    color: #F7F7F7;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 32px */
-    letter-spacing: 0.1px;
-  }
-  
-  .plan-features li {
-    color: #252A2E;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 32px */
-    letter-spacing: 0.1px;
-  }
-  
-  .choose-plan-button {
-     border: 1px solid white;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color:  #757B67
-  }
-   .choose-plan-button:hover{
-    background-color: #F7F7F7;
-    color: #757B67;
-   }
-  
+  border: 1px solid #C9C9C9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 350px;
+  text-align: left;
+  height: 75vh;
+  width: 384px;
+  padding: 24px;
+}
 
-  .plan-card.featured {
-    background-color: #757B67; 
-    color: white;
+.plan-card.featured {
+  height: 80vh;
+}
+
+.plan-title {
+  color: #252A2E;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.12px;
+}
+
+.plan-price {
+  color: #252A2E;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.16px;
+}
+
+.plan-description {
+  color: #252A2E;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+}
+
+.plan-features {
+  color: #F7F7F7;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+}
+
+.plan-features li {
+  color: #252A2E;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+}
+
+.choose-plan-button {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #757B67;
+}
+
+.choose-plan-button:hover {
+  background-color: #F7F7F7;
+  color: #757B67;
+}
+
+.plan-card.featured {
+  background-color: #757B67;
+  color: white;
+}
+
+.plan-card.featured .plan-title,
+.plan-card.featured .plan-price,
+.plan-card.featured .plan-description,
+.plan-card.featured .plan-features li {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .plan-card {
+    width: 80%;
+    height: auto;
+    padding: 16px;
+    margin-bottom: 24px;
+    flex-direction: column;
+    display: none;
   }
-  
-  .plan-card.featured .plan-title,
-  .plan-card.featured .plan-price,
-  .plan-card.featured .plan-description,
-  .plan-card.featured .plan-features li {
-    color: white; 
+
+  .plan-card:nth-child(2) {
+    display: block;
   }
-  
+
+  .plan-title {
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  .plan-price {
+    font-size: 28px;
+    line-height: 130%;
+  }
+
+  .plan-description,
+  .plan-features li {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .choose-plan-button {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .plan-card {
+    width: 95%;
+    height: auto;
+    padding: 12px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: none;
+  }
+
+  .plan-card:nth-child(2) {
+    display: block;
+  }
+
+  .plan-title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .plan-price {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .plan-description,
+  .plan-features li {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .choose-plan-button {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+}

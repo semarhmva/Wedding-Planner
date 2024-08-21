@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css'; 
 import TitleSection from './TitleSection';
+
 const Footer = () => {
     return (
       <footer className="footer">
@@ -24,16 +26,16 @@ const Footer = () => {
           </div>
            <div className="links-container">
         <ul>
-          <li><a href="/about">ABOUT US</a></li>
-          <li><a href="/services">SERVICES</a></li>
-          <li><a href="/albums">ALBUMS</a></li>
-          <li><a href="/faq">FAQ</a></li>
+          <li><Link to="/about">ABOUT US</Link></li>
+          <li><Link to="/services">SERVICES</Link></li>
+          <li><Link to="/albums">ALBUMS</Link></li>
+          <li><Link to="/faq">FAQ</Link></li>
         </ul>
         <ul>
-          <li><a href="/blog">BLOG</a></li>
-          <li><a href="/team">TEAM</a></li>
-          <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
-          <li><a href="/terms-conditions">TERMS OF CONDITIONS</a></li>
+          <li><Link to="/blog">BLOG</Link></li>
+          <li><Link to="/team">TEAM</Link></li>
+          <li><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
+          <li><Link to="/terms-conditions">TERMS OF CONDITIONS</Link></li>
         </ul>
       
     </div>
@@ -44,10 +46,10 @@ const Footer = () => {
           </div>
            <div className="links-container">
         <ul>
-          <li><a href="/about">CONTACT US</a></li>
-          <li><a href="/services">INSTAGRAM</a></li>
-          <li><a href="/albums">FACEBOOK</a></li>
-          <li><a href="/faq">TWITTER</a></li>
+          <li><Link to="/contact">CONTACT US</Link></li>
+          <li><Link to="/services">INSTAGRAM</Link></li>
+          <li><Link to="/albums">FACEBOOK</Link></li>
+          <li><Link to="/faq">TWITTER</Link></li>
         </ul>
       
     </div>

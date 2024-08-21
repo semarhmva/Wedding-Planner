@@ -7,7 +7,7 @@ function HomeServices() {
         { image: "/services1.png", altText: "Service 1", overlayText: "Design" },
         { image: "/services2.png", altText: "Service 2", overlayText: "Planning" },
         { image: "/services3.png", altText: "Service 3", overlayText: "Photography" },
-        // Add more data as needed
+       
       ];
   return (
     <div className="home-services">

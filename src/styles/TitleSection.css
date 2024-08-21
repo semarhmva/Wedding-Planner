@@ -29,7 +29,7 @@ h2 {
   .sub-title span {
     color: #d3874a;
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -38,3 +38,32 @@ h2 {
     text-transform: uppercase;
   }
   
+  @media (max-width: 960px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        gap: 0.5rem;
+    }
+
+    .sub-title span {
+        font-size: 20px;
+    }
+}
+
+/* For screens 460px and below */
+@media (max-width: 460px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sub-title span {
+        font-size: 18px;
+    }
+}

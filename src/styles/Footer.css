@@ -130,75 +130,74 @@ letter-spacing: 0.08px;
   }
 
   @media screen and (max-width: 960px) {
-    .footer {
-        padding: 0 3%;
-    }
-
-    .footer-top, .footer-bottom {
+    .footer-top {
         flex-direction: column;
         align-items: center;
     }
 
-    .footer-top-left, .footer-top-right, .footer-bottom-left, .footer-bottom-right {
+    .footer-top-left,
+    .footer-top-right {
         width: 100%;
-        align-items: center;
         text-align: center;
+        margin-bottom: 20px;
     }
 
-    .footer-span, .explore-links h2 {
-        font-size: 32px; /* Adjusted for medium screens */
+    .footer-top-right img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-span,
+    .explore-links h2 {
+        font-size: 32px;
+    }
+
+    .footer-bottom-left,
+    .footer-bottom-right {
+        width: 45%;
+        text-align: start;
+        align-items: flex-start;
     }
 
     .links-container {
         width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .links-container a {
-        font-size: 14px; /* Adjusted font size */
     }
 }
 
-  @media screen and (max-width: 560px) {
-    .footer {
-        padding: 20px 2%;
+@media screen and (max-width: 560px) {
+    .footer-top-right img {
+        width: 60px;
+        height: 60px;
     }
 
-    .footer .contact-us {
-        font-size: 20px;
+    .footer-span,
+    .explore-links h2 {
+        font-size: 24px;
     }
 
-    .footer .contact-text {
-        font-size: 16px;
-    }
-
-    .footer .cta-button {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        font-size: 20px;
-    }
-
-    .footer .links-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer .links-section div {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .footer .links-section h2 {
-        font-size: 18px;
-    }
-
-    .footer .links-section ul li a {
+    .links-container a {
         font-size: 14px;
     }
 
-    .footer .copyright {
-        font-size: 12px;
+    .footer-bottom {
+        padding: 10px 0;
+    }
+
+    .footer-bottom-left,
+    .footer-bottom-right {
+        text-align: start;
+        align-items: flex-start;
+        width: 45%;
+    }
+
+    .footer-top-left,
+    .footer-top-right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .links-container {
+        width: 100%;
     }
 }

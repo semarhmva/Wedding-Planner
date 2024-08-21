@@ -1,7 +1,7 @@
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(33, 33, 33, 0.7),rgba(33, 33, 33, 0.7)) , url('../assets/bride2.jpg');
+    background: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.32)), url('../../public/video.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -13,90 +13,74 @@
     overflow: hidden;
     flex-direction: column;
 }
-.hero .container{
+
+.hero .container {
     display: flex;
     flex-direction: column;
-
 }
-.hero-text{
+
+.hero-text {
     margin: 0 auto;
     text-align: center;
     max-width: 800px;
     justify-content: center;
     align-items: center;
     display: inline-flex;
-flex-direction: column;
-align-items: center;
-gap: 19px;
-width: 85%;
-
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    width: 85%;
 }
 
-.hero-text span{
-color: #FFF;
-text-align: center;
-/*font-family: 'Playfair Display', serif;*/
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.1px;
-text-transform: uppercase;
-}
-.hero-text h1{
+.hero-text span {
     color: #FFF;
-
-text-align: center;
-/*font-family: "Playfair Display";*/
-font-size: 64px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; /* 102.4px */
-letter-spacing: 0.32px;
-text-transform: capitalize;
-width: 762px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
 }
-.hero .social-media{
 
-    display: flex;
+.hero-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    width: 762px;
+}
+
+.hero .social-media {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     width: 10%;
-    
-   
- 
 }
 
-/*#hero-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-*/
-.hero .social-media svg{
+.hero .social-media svg {
     width: 14px;
-height: 14px;
-flex-shrink: 0;
-cursor: pointer;
+    height: 14px;
+    flex-shrink: 0;
+    cursor: pointer;
 }
-.hero .line{
+
+.hero .line {
     width: 1px;
     height: 110px;
     background-color: #FFF;
     opacity: 0.7;
 }
-.hero-top{
-  
+
+.hero-top {
     width: 100%;
-    height:85%;
+    height: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,36 +88,56 @@ cursor: pointer;
     text-align: center;
     margin-top: 6%;
 }
-/* .hero-bottom{
-    width: 100%;
-    height: 5%;
-    gap: 2rem;
-    align-items: flex-end;
-    justify-content: flex-end;
-    display: inline-flex;
-background: linear-gradient(180deg, rgba(247, 247, 247, 0.02) 0%, rgba(247, 247, 247, 0.12) 100%);
-backdrop-filter: blur(10px);
-}
-.hero-bottom .hero-logo{
+
+.hero-bottom {
     width: 100%;
     display: inline-flex;
-padding: 48px 131px;
-justify-content: flex-end;
-align-items: center;
-display: flex;
+    padding: 48px 110px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(247, 247, 247, 0.02) 0%, rgba(247, 247, 247, 0.12) 100%);
+    backdrop-filter: blur(10px);
     gap: 2.5rem;
-    cursor: pointer;
-} */
-
-.hero-bottom{
-    width: 100%;
-    display: inline-flex;
-padding: 48px 110px;
-justify-content: center;
-align-items: center;
-background: linear-gradient(180deg, rgba(247, 247, 247, 0.02) 0%, rgba(247, 247, 247, 0.12) 100%);
-backdrop-filter: blur(10px);
-gap: 2.5rem;
 }
 
+/* Responsive Styles */
+@media (max-width: 890px) {
+    .hero {
+        justify-content: center;
+    }
 
+    .hero .social-media {
+        display: none;
+    }
+
+    .hero-text {
+        margin-top: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        width: 100%;
+    }
+
+    .hero-text span {
+        font-size: 16px;
+    }
+
+    .hero-bottom {
+        padding: 24px 55px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text span {
+        font-size: 14px;
+    }
+
+    .hero-bottom {
+        padding: 12px 30px;
+    }
+}

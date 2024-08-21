@@ -7,6 +7,8 @@ import HomeBenefit from "../components/home/HomeBenefit";
 import HomeVenues from "../components/home/HomeVenues";
 import HomePlan from "../components/home/HomePlan";
 import Memories from "../components/home/Memories";
+import Testimonials from "../components/home/Testimonials";
+
 
 const Home = () => {
   return (
@@ -18,6 +20,7 @@ const Home = () => {
       <HomeVenues/>
       <HomePlan/>
       <Memories/>
+      <Testimonials/>
       <Footer/>
     </section>
   );
