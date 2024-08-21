@@ -40,30 +40,30 @@ h2 {
   
   @media (max-width: 960px) {
     h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .sub-title {
-        gap: 0.5rem;
+  
     }
 
     .sub-title span {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
 /* For screens 460px and below */
 @media (max-width: 460px) {
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .sub-title {
         flex-direction: column;
-        gap: 0.5rem;
+
     }
 
     .sub-title span {
-        font-size: 18px;
+        font-size: 14px;
     }
 }

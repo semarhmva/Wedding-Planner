@@ -16,5 +16,21 @@
     color: #f7f7f7;
     border: #757B67;
     background-color: #757B67;
+    
+  }
+  @media (max-width: 960px) {
+    .dynamic-btn {
+      font-size: 12px;
+      padding: 10px 25px;
+    }
+  }
+  
+  /* Style for screens smaller than 460px */
+  @media (max-width: 460px) {
+    .dynamic-btn {
+      font-size: 10px;
+      padding: 8px 20px;
+      border-radius: 20px;
+    }
   }
   

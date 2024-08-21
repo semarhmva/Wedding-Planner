@@ -124,7 +124,7 @@
     }
 
     .hero-bottom {
-        padding: 24px 55px;
+        display: none;
     }
 }
 
@@ -138,6 +138,6 @@
     }
 
     .hero-bottom {
-        padding: 12px 30px;
+       display: none;
     }
 }
