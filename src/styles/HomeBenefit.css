@@ -39,6 +39,7 @@ letter-spacing: 0.24px;
 @media screen and (max-width: 960px) {
     .benefits-area {
         padding: 15px;
+        height: auto;
     }
 
     .benefits-area .container {
@@ -46,8 +47,9 @@ letter-spacing: 0.24px;
     }
 
     .benefits-title {
+        margin-top: 20px;
         width: 80%; 
-        font-size: 22px; 
+        font-size: 20px; 
     }
 }
 
@@ -55,11 +57,12 @@ letter-spacing: 0.24px;
 @media screen and (max-width: 560px) {
     .benefits-area {
         padding: 10px;
+        height: auto;
     }
 
     .benefits-title {
         width: 100%; 
-        font-size: 20px; 
+        font-size: 18px; 
         text-align: center; 
         align-items: center; 
     }

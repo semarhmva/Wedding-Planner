@@ -113,6 +113,9 @@
 }
 
 @media screen and (max-width: 960px) {
+    .venues{
+        height: auto;
+    }
     .venues .container {
         flex-direction: column;
         align-items: flex-start;
@@ -140,9 +143,24 @@
     .content p {
         font-size: 16px;
     }
+    .title h2{
+        font-size: 20px;
+    }
+    .venues .btn {
+        justify-content: start;
+        align-items: start;
+        margin-top: 15px;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 560px) {
+    .venues{
+        height: auto;
+    }
+    .venues .container{
+        height: auto;
+    }
     .content {
         padding: 15px;
         text-align: justify;
@@ -154,10 +172,12 @@
 
     .content p {
         margin-bottom: 15px;
+        display: block;
+        text-align: start;
     }
 
     .title h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
 
@@ -169,9 +189,11 @@
     }
 
     .venues .btn {
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        justify-content: start;
+        align-items: start;
         margin-top: 15px;
+      
     }
 
     .venues .book-btn {
@@ -187,7 +209,10 @@
     }
 
     .venues-right {
-        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
         height: auto;
     }
 
