@@ -1,0 +1,31 @@
+.seen-in{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    margin-bottom: 4%;
+}
+.seen-in .container{
+   margin: 0 auto;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.seen-in .container .title{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.seen-in .container .companies{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,11 +1,11 @@
 .testimonials {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: azure;
+   
 }
 
 .testimonials .container {
@@ -17,6 +17,7 @@
     align-items: center;
     text-align: center;
     background: rgba(117, 123, 103, 0.12);
+    background: rgba(117, 123, 103, 0.12);
 }
 
 .testimonials .title {
@@ -26,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+   
 }
 
 .content {
@@ -37,3 +38,80 @@
     align-items: center;
     text-align: center;
 }
+
+.comment-main {
+    color: #1C1C1E;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.12px;
+    margin:10px 0;
+  }
+  .comment-author {
+    color: #1C1C1E;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.1px;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 960px) {
+    .testimonials {
+        height: auto;
+    }
+    .testimonials .container {
+        padding: 20px;
+    }
+    .content {
+        width: 90%;
+        height: auto;
+    }
+    .comment-main {
+        font-size: 22px;
+    }
+    .comment-author {
+        font-size: 18px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .testimonials {
+        height: auto;
+        padding: 20px 10px;
+    }
+    .testimonials .container {
+        padding: 10px;
+    }
+    .content {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .comment-main {
+        display: block;
+        font-size: 20px;
+    }
+    .comment-author {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 20px;
+        height: 20px;
+    }
+}
+  

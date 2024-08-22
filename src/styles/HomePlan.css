@@ -121,10 +121,12 @@
     display: none;
     width: 95%;
     margin-bottom: 20px;
+    height: auto;
   }
 
   .bottom .plan-card:nth-child(2) {
     display: block;
+    
   }
 
   .top {

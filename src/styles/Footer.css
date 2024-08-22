@@ -133,6 +133,8 @@ letter-spacing: 0.08px;
     .footer-top {
         flex-direction: column;
         align-items: center;
+        height: auto;
+        text-align: start;
     }
 
     .footer-top-left,
@@ -165,6 +167,9 @@ letter-spacing: 0.08px;
 }
 
 @media screen and (max-width: 560px) {
+    .footer{
+        height: auto;
+    }
     .footer-top-right img {
         width: 60px;
         height: 60px;

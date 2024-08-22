@@ -113,12 +113,13 @@
 }
 
 @media screen and (max-width: 960px) {
-    .venues{
+    .venues {
         height: auto;
     }
+
     .venues .container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         text-align: center;
     }
@@ -126,59 +127,82 @@
     .venues-left, .venues-right {
         width: 100%;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .venues-left {
+        width: 80%;
     }
 
     .venues-right {
+        width: 80%;
         height: 300px;
+        margin: 0 auto;
     }
 
     .title h2 {
         font-size: 28px;
+        text-align: center;
     }
 
     .title span {
         font-size: 16px;
+        text-align: center;
     }
 
     .content p {
         font-size: 16px;
+        text-align: center;
     }
-    .title h2{
-        font-size: 20px;
-    }
+
     .venues .btn {
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         margin-top: 15px;
-        display: block;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 560px) {
-    .venues{
+    .venues {
         height: auto;
-    }
-    .venues .container{
-        height: auto;
-    }
-    .content {
-        padding: 15px;
-        text-align: justify;
-        line-height: 1.6;
-        font-size: 16px;
-        color: #252A2E;
-        font-family: 'Poppins', sans-serif;
     }
 
-    .content p {
-        margin-bottom: 15px;
-        display: block;
+    .venues .container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: start;
+    }
+
+    .venues-left, .venues-right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .venues-left {
+        width: 90%;
+    }
+
+    .venues-right {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
     }
 
     .title h2 {
         font-size: 20px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .title span {
@@ -186,14 +210,21 @@
         color: #D3874A;
         margin-bottom: 10px;
         display: inline-block;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        display: block;
+        text-align: start;
     }
 
     .venues .btn {
-        display: flex;
         justify-content: start;
         align-items: start;
-        margin-top: 15px;
-      
+        margin: 15px 0;
+        display: flex;
     }
 
     .venues .book-btn {
@@ -206,19 +237,5 @@
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
-    }
-
-    .venues-right {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        height: auto;
-    }
-
-    .venues-img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
     }
 }

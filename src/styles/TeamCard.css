@@ -1,0 +1,80 @@
+.team-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 75%;
+}
+
+.team-card {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #C9C9C9;
+    background: #F7F7F7;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+
+
+.team-card p {
+    color: rgba(28, 28, 30, 0.64);
+font-family: "Clash Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.07px;
+}
+
+.team-card .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.team-card .social-icons a {
+    color: #888;
+}
+.team-card h3 {
+    margin: 0;
+    color: #1C1C1E;
+    text-align: start;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .team-card {
+        width: calc(50% - 10px); 
+    }
+}
+
+
+@media (max-width: 560px) {
+    .team-card {
+        width: 100%; 
+    }
+    .team-card h3{
+        font-size: 15px;
+    }
+    .team-card p{
+        font-size: 10px;
+    }
+}
