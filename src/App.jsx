@@ -9,6 +9,9 @@ import BookNow from "./pages/BookNow";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails";
+import Policy from "./pages/Policy";
+import Terms from "./pages/Terms";
+import Album from "./pages/Album";
 
 
 function App() {
@@ -25,9 +28,11 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/portfolio" element={<Portfolio/>} />
           <Route path="/portfoliodetails" element={<PortfolioDetails/>} />
-      
-         
+          <Route path="/privacy-policy" element={<Policy/>} />
+          <Route path="/terms" element={<Terms/>} />
+          <Route path="/album" element={<Album/>} />
           <Route path="*" element={<div>404 Not found</div>} />
+          
         </Routes>
       </div>
     

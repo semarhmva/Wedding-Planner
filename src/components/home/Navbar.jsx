@@ -51,7 +51,7 @@ function Navbar() {
                 <NavLink to="/services" activeClassName="active-link" className={`nav-link ${colorClass}`}>SERVICES</NavLink>
               </li>
               <li>
-                <NavLink to="/albums" activeClassName="active-link" className={`nav-link ${colorClass}`}>ALBUMS</NavLink>
+                <NavLink to="/album" activeClassName="active-link" className={`nav-link ${colorClass}`}>ALBUMS</NavLink>
               </li>
               <li>
                 <NavLink to="/portfolio" activeClassName="active-link" className={`nav-link ${colorClass}`}>PORTFOLIO</NavLink>

@@ -1,6 +1,27 @@
-.client{
+.wedding-details h2{
+    color: #252A2E;
+font-family: "Playfair Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+letter-spacing: 0.12px;
+}
+.wedding-details p{
+    color: #252A2E;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+
+
+.album{
+    margin-top: 30px;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,9 +29,9 @@
     margin-bottom: 20px;
     flex-direction: column;
 }
-.client .container{
+.album .container{
     margin: 0 auto;
-    height: 100%;
+    height: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,11 +132,11 @@ letter-spacing: 0.1px;
   
 
   @media (max-width: 960px) {
-    .client {
+    .album {
         height: auto;
         padding: 20px;
     }
-    .client .container {
+    .album .container {
         flex-direction: column;
         text-align: center;
     }

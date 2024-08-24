@@ -1,0 +1,138 @@
+.privacy{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   margin-bottom: 40px;
+}
+.privacy .container{
+    width: 100%;
+   height: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.privacy .container .title{
+width: 100%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.privacy .container .content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+  
+}
+
+.privacy .container .content h2{
+    color: #1C1C1E;
+font-family: "Playfair Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+letter-spacing: 0.12px;
+}
+
+.privacy .container .content p{
+color: #1C1C1E;
+font-family: "Playfair Display";
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+letter-spacing: 0.09px;
+margin-bottom: 1.5rem;
+}
+
+
+@media (max-width: 960px) {
+    .privacy {
+      height: auto;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .privacy .container {
+      width: 100%;
+      height: auto;
+      padding: 0 20px;
+    }
+  
+    .privacy .container .title {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+    }
+  
+    .privacy .container .content {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      text-align: left;
+      padding: 0 10px;
+    }
+  
+    .privacy .container .content h2 {
+      font-size: 22px;
+      line-height: 35px;
+    }
+  
+    .privacy .container .content p {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .privacy {
+      height: auto;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .privacy .container {
+      width: 100%;
+      height: auto;
+      padding: 0 15px;
+    }
+  
+    .privacy .container .title {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+    }
+  
+    .privacy .container .content {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      text-align: left;
+      padding: 0 5px;
+    }
+  
+    .privacy .container .content h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .privacy .container .content p {
+      font-size: 15px;
+      line-height: 26px;
+      text-align: left;
+    }
+  }
