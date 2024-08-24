@@ -12,6 +12,8 @@ import PortfolioDetails from "./pages/PortfolioDetails";
 import Policy from "./pages/Policy";
 import Terms from "./pages/Terms";
 import Album from "./pages/Album";
+import Team from "./pages/Team";
+import Services from "./pages/Services";
 
 
 function App() {
@@ -31,6 +33,9 @@ function App() {
           <Route path="/privacy-policy" element={<Policy/>} />
           <Route path="/terms" element={<Terms/>} />
           <Route path="/album" element={<Album/>} />
+          <Route path="/team" element={<Team/>} />
+          <Route path="/services" element={<Services/>} />
+
           <Route path="*" element={<div>404 Not found</div>} />
           
         </Routes>

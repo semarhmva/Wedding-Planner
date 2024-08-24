@@ -21,6 +21,7 @@
 }
 
 .team-card img {
+    margin-top: 1rem;
     border-radius: 50%;
     width: 110px;
     height: 110px;
@@ -42,6 +43,7 @@ letter-spacing: 0.07px;
 .team-card .social-icons {
     display: flex;
     gap: 10px;
+    margin-bottom: 1rem;
 }
 
 .team-card .social-icons a {
