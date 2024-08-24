@@ -62,9 +62,9 @@ function Navbar() {
             </ul>
           </div>
           <div className="btn">
-            <a href="#book" className={`book-btn ${buttonClass}`}>
+            <NavLink to="/book" className={`book-btn ${buttonClass}`}>
               Book Now
-            </a>
+            </NavLink>
           </div>
           <div className={`burger ${colorClass} ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
             <div className="line1"></div>

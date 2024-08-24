@@ -1,0 +1,98 @@
+.privacy-policy {
+    width: 100%;
+    padding: 40px;
+    background-color: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .effective-date {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #e69900;
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #252a2e;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 960px) {
+    .privacy-policy {
+      padding: 20px;
+    }
+  
+    .container {
+      padding: 30px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .effective-date {
+      font-size: 14px;
+    }
+  
+    .content h2 {
+      font-size: 20px;
+    }
+  
+    .content p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .privacy-policy {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    .effective-date {
+      font-size: 12px;
+    }
+  
+    .content h2 {
+      font-size: 18px;
+    }
+  
+    .content p {
+      font-size: 12px;
+    }
+  }
+  

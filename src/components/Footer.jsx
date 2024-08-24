@@ -29,12 +29,12 @@ const Footer = () => {
           <li><Link to="/about">ABOUT US</Link></li>
           <li><Link to="/services">SERVICES</Link></li>
           <li><Link to="/albums">ALBUMS</Link></li>
-          <li><Link to="/faq">FAQ</Link></li>
+          <li><Link to="/contact">FAQ</Link></li>
         </ul>
         <ul>
           <li><Link to="/blog">BLOG</Link></li>
           <li><Link to="/team">TEAM</Link></li>
-          <li><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
+          <li><Link to="/privacy">PRIVACY POLICY</Link></li>
           <li><Link to="/terms-conditions">TERMS OF CONDITIONS</Link></li>
         </ul>
       

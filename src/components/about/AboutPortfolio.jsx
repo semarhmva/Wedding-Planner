@@ -55,7 +55,7 @@ function AboutPortfolio() {
           ))}
         </div>
         <div className="btn">
-          <Button text="See More Portfolio" href="#portfolio-details" />
+          <Button text="See More Portfolio" href="/portfolio" />
         </div>
       </div>
     </div>

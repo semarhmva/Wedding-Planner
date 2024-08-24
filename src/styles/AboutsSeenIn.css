@@ -29,3 +29,26 @@
     align-items: center;
     justify-content: space-between;
 }
+
+
+
+@media (max-width: 960px) {
+    .seen-in{
+        height: auto;
+    }
+    .seen-in .container .companies {
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 560px) {
+    .seen-in .container .companies {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .seen-in .container .companies img {
+        width: 80px; 
+        margin: 10px 0;
+    }
+}

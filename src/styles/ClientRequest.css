@@ -1,0 +1,210 @@
+.client{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.client .container{
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.client-left{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img{
+    width: 80%;
+    height: 85%;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.client-right{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column
+}
+.client-right .title{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+ 
+}
+.wedding-details{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+    gap: 5%;
+}
+.wedding-details span{
+    color: #252A2E;
+font-family: "Playfair Display";
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 51.2px */
+letter-spacing: 0.16px;
+}
+.wedding-details ul {
+    list-style: disc !important; 
+    padding-left: 20px; 
+
+  }
+  
+  .wedding-details li {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #252A2E;
+    margin-bottom: 10px;
+  }
+  
+  .wedding-details li strong {
+    color: #252A2E;
+font-family: "Playfair Display";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32px */
+letter-spacing: 0.1px;
+  }
+  
+  .wedding-details .highlight {
+    color: #D3874A;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.1px;
+  }
+  
+
+  @media (max-width: 960px) {
+    .client {
+        height: auto;
+        padding: 20px;
+    }
+    .client .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .client-left, .client-right {
+        width: 100%;
+    }
+    .client-left .img {
+        width: 100%;
+        height: auto;
+    }
+    .img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .client-right .title {
+        height: auto;
+        justify-content: center;
+    }
+    .wedding-details {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .wedding-details span {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    .wedding-details ul {
+        padding-left: 10px;
+    }
+    .wedding-details li {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .wedding-details li strong {
+        font-size: 18px;
+    }
+    .wedding-details .highlight {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 560px) {
+    .client {
+        height: auto;
+        padding: 10px;
+    }
+    .client .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .client-left, .client-right {
+        width: 100%;
+    }
+    .client-left .img {
+        width: 100%;
+        height: auto;
+    }
+    .img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .client-right .title {
+        height: auto;
+        justify-content: center;
+    }
+    .wedding-details {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .wedding-details span {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .wedding-details ul {
+        padding-left: 5px;
+    }
+    .wedding-details li {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .wedding-details li strong {
+        font-size: 16px;
+    }
+    .wedding-details .highlight {
+        font-size: 16px;
+    }
+}

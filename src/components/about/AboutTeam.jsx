@@ -20,7 +20,7 @@ function AboutTeam() {
             <TeamCard />
             </div>
             <div className="btn">
-              <Button text="See All Team" href="#portfolio-details" />
+              <Button text="See All Team" href="/team" />
            </div>
             
         </div>

@@ -31,7 +31,7 @@ function HomeAbout() {
                         Our approach is personal, friendly, and professional, and we strive
                          to make the planning process as stress-free as possible.</p>
                          <div className="btn">
-            <Button text="Book Now" href="#book" />
+            <Button text="Book Now" href="/book" />
           </div>
 
                 </div>

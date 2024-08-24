@@ -153,6 +153,6 @@
   }
 
   .btn {
-    display: none;
+    display: none !important;
   }
 }

@@ -9,27 +9,27 @@ const comments = [
   {
     text: "Our special day on 26th Sept 2021 was just amazing in every way! From start to finish the day was full of love, laughter and special memories created all day. The team were amazing, food delicious, venue beautifully decorated, nothing too much trouble. Citation is second to none and thank you to you all for making our day special - wish we could do it all again!",
     author: "Maddie & Gabe",
-    imgSrc: "./quote.svg"
+    imgSrc: ""
   },
   {
     text: "Our special day on 26th Sept 2021 was just amazing in every way! From start to finish the day was full of love, laughter and special memories created all day. The team were amazing, food delicious, venue beautifully decorated, nothing too much trouble. Citation is second to none and thank you to you all for making our day special - wish we could do it all again!",
     author: "Maddie & Gabe",
-    imgSrc: "./quote.svg"
+    imgSrc: ""
   },
   {
     text: "Our special day on 26th Sept 2021 was just amazing in every way! From start to finish the day was full of love, laughter and special memories created all day. The team were amazing, food delicious, venue beautifully decorated, nothing too much trouble. Citation is second to none and thank you to you all for making our day special - wish we could do it all again!",
-    imgSrc: "./quote.svg",
+    imgSrc: "",
     author: "Maddie & Gabe",
   },
   {
     text: "Our special day on 26th Sept 2021 was just amazing in every way! From start to finish the day was full of love, laughter and special memories created all day. The team were amazing, food delicious, venue beautifully decorated, nothing too much trouble. Citation is second to none and thank you to you all for making our day special - wish we could do it all again!",
     author: "Maddie & Gabe",
-     imgSrc: "./quote.svg"
+     imgSrc: ""
   },
   {
     text: "Our special day on 26th Sept 2021 was just amazing in every way! From start to finish the day was full of love, laughter and special memories created all day. The team were amazing, food delicious, venue beautifully decorated, nothing too much trouble. Citation is second to none and thank you to you all for making our day special - wish we could do it all again!",
     author: "Maddie & Gabe",
-    imgSrc: "./quote.svg"
+    imgSrc: ""
   },
 ];
 

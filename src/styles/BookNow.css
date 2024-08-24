@@ -1,0 +1,236 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    color: #252A2E; 
+    width: 100%;
+}
+.contact-section .container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.contact-left {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+}
+
+.contact-left h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #1C1C1E;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 28.8px */
+letter-spacing: 0.09px;
+}
+
+.contact-info a {
+    color: #1C1C1E; /* Link color */
+    text-decoration: none;
+}
+
+.contact-right {
+    width: 45%;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+.contact-left .title{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.send-message-button {
+    display: inline-block;
+    padding: 16px 48px;
+    background-color: #606243; 
+    color: #fff;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.send-message-button:hover {
+    background-color: #4f4f32; 
+}
+.btn{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    color: #F7F7F7;
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.08px;
+}
+
+.contact-icon {
+    margin-right: 8px;
+    color: #333; 
+}
+.success-message {
+    display: flex;
+    text-align: start;
+    margin-top: 20px;
+    color: green; 
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea {
+    border: none;
+    border-bottom: 1px solid #C9C9C9;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
+textarea:focus {
+    border-bottom: 1px solid #000; 
+}
+
+
+textarea {
+    resize: none;
+    height: 100px; 
+}
+
+
+
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+
+
+/**bRESPONSIVE**/
+@media (max-width: 960px) {
+    .contact-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+    }
+    .contact-section .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 560px) {
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .send-message-button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    textarea {
+        height: 80px;
+    }
+}

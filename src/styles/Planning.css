@@ -1,0 +1,122 @@
+.planning-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .planning-section .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: start;
+   
+  }
+  .planning-item:last-child {
+    border-bottom: none;
+  }
+  
+  .planning-section .container .title {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: start;
+    padding-left: 0; 
+    margin-bottom: 50px;
+  }
+  .planning-item {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    border-bottom: 1px solid #252A2E;
+        padding-bottom: 20px;
+margin-bottom: 20px;
+  }
+  
+  .planning-item-title {
+    color: #252A2E;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.12px;
+    width: 40%;
+  }
+  
+  .planning-item-description {
+    color: #252A2E;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.09px;
+    width: 55%; 
+    text-align: left;
+  }
+  
+
+  /**RESPONSIVEEEE**/
+
+  @media (max-width: 960px) {
+    .planning-section {
+        height: auto;
+        padding: 20px;
+    }
+    .planning-section .container {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .planning-item {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .planning-item-title {
+        width: 100%;
+        font-size: 22px;
+    }
+    .planning-item-description {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .planning-section {
+        height: auto;
+        padding: 10px;
+    }
+    .planning-section .container {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .planning-item {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+    .planning-item-title {
+        width: 100%;
+        font-size: 20px;
+    }
+    .planning-item-description {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+}

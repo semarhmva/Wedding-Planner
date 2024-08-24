@@ -203,7 +203,7 @@ letter-spacing: 0.09px;
     .about-right p {
         font-size: 14px;
     }
-    .btn{
+    .home-about .btn{
         margin-top: 10px;
         display: block;
     }
