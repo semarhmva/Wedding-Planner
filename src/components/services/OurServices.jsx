@@ -39,7 +39,7 @@ function OurServices() {
     <li>Design</li>
     <li>Consultation</li>
   </ul>
-  <Button text="See Details" href="/services-details" />
+  <Button text="See Details" href="/s-details" />
 
 </div>
   </div>

@@ -21,7 +21,7 @@ function HomeVenues() {
                       Dating back to 1844 and nestled within the grandeur of the Merchant City, the rich history of Citation contributes to its boastful vibrance and rusticity.</p>
                 </div>
                 <div className="btn">
-                    <Button text="Book Now" href="#book" />
+                    <Button text="Book Now" href="/book" />
                 </div>
 
 

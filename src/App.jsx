@@ -14,6 +14,8 @@ import Terms from "./pages/Terms";
 import Album from "./pages/Album";
 import Team from "./pages/Team";
 import Services from "./pages/Services";
+import Blog from "./pages/Blog";
+import ServicesDetails from "./pages/ServicesDetails";
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
           <Route path="/album" element={<Album/>} />
           <Route path="/team" element={<Team/>} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/s-details" element={<ServicesDetails/>} />
 
           <Route path="*" element={<div>404 Not found</div>} />
           

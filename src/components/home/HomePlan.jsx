@@ -27,7 +27,7 @@ const planData = [
         'In house PA/microphones for speeches',
         'Dedicated Events Coordinator',
       ],
-      featured: true, // Marks this plan as featured
+      featured: true, 
     },
     {
       name: 'International event',

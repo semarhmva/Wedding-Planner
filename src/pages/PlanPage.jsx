@@ -1,8 +1,15 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import Plan from '../components/plan/Plan'
+import PlanFaq from '../components/plan/PlanFaq'
 
-function PlanPage() {
+const PlanPage= () => {
   return (
-    <div>PlanPage</div>
+    <section>
+     <Plan/>
+     <PlanFaq/>
+    <Footer/>
+  </section>
   )
 }
 

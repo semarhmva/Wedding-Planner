@@ -1,0 +1,43 @@
+.serv-hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.32)), url('/d2.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Playfair Display';
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.serv-hero .container{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+}
+.serv-hero .container .text{
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.serv-hero .container .text p{
+    color: #F7F7F7;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 89.6px */
+letter-spacing: 0.28px;
+}

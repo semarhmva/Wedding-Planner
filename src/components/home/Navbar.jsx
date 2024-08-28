@@ -29,10 +29,11 @@ function Navbar() {
   }, []);
 
   const isHomePage = location.pathname === '/';
-  const colorClass = isHomePage ? 'white' : 'black';
-  const buttonClass = isHomePage ? 'home' : 'other';
-  const navbarClasses = `navbar ${isHomePage ? 'fixed' : ''} ${hidden ? 'hidden' : ''}`;
-  const containerMarginClass = !isHomePage ? 'container-margin' : '';
+  const isServicesDetailsPage = location.pathname === '/s-details';
+  const colorClass = isHomePage || isServicesDetailsPage ? 'white' : 'black';
+  const buttonClass = isHomePage || isServicesDetailsPage ? 'home' : 'other';
+  const navbarClasses = `navbar ${isHomePage || isServicesDetailsPage ? 'fixed' : ''} ${hidden ? 'hidden' : ''} ${isServicesDetailsPage ? 'transparent' : ''}`;
+  const containerMarginClass = !isHomePage && !isServicesDetailsPage ? 'container-margin' : '';
 
   return (
     <div className={containerMarginClass}>
