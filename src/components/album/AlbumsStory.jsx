@@ -5,7 +5,12 @@ import TitleSection from '../TitleSection'
 function AlbumsStory() {
   return (
 <div className="album">
-          
+            <TitleSection 
+                 mainTitle='Albums'
+                 subtitle="the full story" 
+                 vectorLeft="/Vector 3.svg" 
+                 vectorRight="/Vector 1.svg" 
+               />
         <div className="container">
           <div className="client-left">
             <div className="img">
