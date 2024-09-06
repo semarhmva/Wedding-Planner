@@ -48,7 +48,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.execution-bottom .right  .img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
 
 @media (max-width: 960px) {
