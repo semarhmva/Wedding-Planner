@@ -8,7 +8,7 @@ function RelatedArticle() {
         <div className="container">
             <div className="title">
             <TitleSection 
-            mainTitle='Featured Article'
+            mainTitle='Related Article'
             subtitle="blog" 
             vectorLeft="/Vector 3.svg" 
             vectorRight="/Vector 1.svg" 
