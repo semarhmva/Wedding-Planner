@@ -1,0 +1,71 @@
+.b-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.b-details .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+     width: 100%;
+     gap: 2rem;
+}
+
+.b-details .container .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    height: 15%;
+}
+
+.b-details .container .content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.content .paragraphs{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 80%;
+    text-align: start;
+    margin-top: 30px;
+}
+
+.b-details .container .img{
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.b-details .container .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.paragraphs .subheading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    font-size: 28px;
+}
+.b-details h2{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+}

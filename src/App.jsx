@@ -16,6 +16,8 @@ import Team from "./pages/Team";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import ServicesDetails from "./pages/ServicesDetails";
+import BlogDetails from "./pages/BlogDetails";
+
 
 
 function App() {
@@ -39,7 +41,7 @@ function App() {
           <Route path="/services" element={<Services/>} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/s-details" element={<ServicesDetails/>} />
-
+          <Route path="/blog-details" element={<BlogDetails/>} />
           <Route path="*" element={<div>404 Not found</div>} />
           
         </Routes>
